@@ -15,6 +15,7 @@ let dataObject = {
     county: data[5],
 }
 
+console.log(dataObject);
 // 获取输入的location
 // let location = process.argv[3];
 // if (typeof (location) === "undefined") {
