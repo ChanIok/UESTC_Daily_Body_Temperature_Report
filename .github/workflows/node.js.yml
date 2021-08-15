@@ -25,4 +25,5 @@ jobs:
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
       
     - name: Run Main
-      run: node main ${{ secrets.COOKIE }} ${{ secrets.LOCATION }}
+      # run: node main ${{ secrets.COOKIE }} ${{ secrets.LOCATION }}
+      run: node main ${{ secrets.COOKIE }} ${{ secrets.DATA }}
